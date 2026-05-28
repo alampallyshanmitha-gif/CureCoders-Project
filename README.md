@@ -31,13 +31,16 @@ The system provides:
 3. Confidence score generation
 4. Visual highlighting of affected chest regions
 5. Support for hospitals with limited radiologists
+   
 ✨ Features
+
 1. 📤 Chest X-ray Upload System
 2.  🧠 CNN-Based AI Detection
 3. 📍 Highlighted Abnormal Regions
 4. Fast Diagnosis Assistance
 5. 📊 Confidence Score Output
 6. 🏥 Healthcare-Friendly Interface
+
 🛠 Technologies Used
 Frontend
 1. HTML
@@ -53,19 +56,30 @@ AI & Image Processing
 3. CNN Model
 
 📂 Project Structure
+
 CureCoders_Project/
+
 │
+
 ├── backend/
+
     ├── app.py
+    
     |── pneumonia_model.h5
+    
     |── train_model.py
+    
 ├── frontend/
 
+
    │── hospital_logo.png
-  
+   
    ├── index.html
+   
    ├── script.js
+   
    └── style.css
+   
    ⚙️ Installation Guide
 
 1️⃣ Clone the Repository
