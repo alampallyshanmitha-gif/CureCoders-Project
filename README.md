@@ -7,9 +7,12 @@ AI-Based Medical Imaging Diagnostic Tool
 
 📌 Problem Statement
 In many hospitals, especially in rural areas, patients often wait hours or even days for chest X-ray diagnosis because of the shortage of radiologists. Delayed diagnosis in cases such as pneumonia or fractures can become life-threatening.
+
 CureVision AI solves this problem by using Artificial Intelligence and Convolutional Neural Networks (CNNs) to analyze chest X-ray images instantly and assist doctors in identifying abnormalities quickly and accurately.
+
 🌍 UN SDG Global Impact
 🩺 SDG 3 – Good Health and Well-Being
+
 Our project improves healthcare accessibility and promotes faster medical diagnosis.
 ⚙️ SDG 9 – Industry, Innovation, and Infrastructure
 The project integrates AI and deep learning technologies into healthcare systems to support innovation.
