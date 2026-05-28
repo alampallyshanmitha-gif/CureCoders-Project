@@ -69,25 +69,45 @@ CureCoders_Project/
    ⚙️ Installation Guide
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/alampallyshanmitha-gif/CureCoders-Project.git 
+
 2️⃣ Navigate to Project Folder
+
 cd CureCoders-Project
+
 3️⃣ Install Required Python Libraries
+
 pip install flask tensorflow keras opencv-python numpy pillow
+
 4️⃣ Run the Backend Server
+
 Move to backend folder:
+
 cd backend
+
 Run the Flask application:
+
 python app.py
+
 The server will start on:
+
 http://127.0.0.1:5000
+
 5️⃣ Open Frontend
+
 Go to the frontend folder and open:
+
 index.html
+
 You can:
+
 - Open directly in browser
+
   OR
+
 - Run using Live Server in VS Code
+
 ✅ Requirements
 - Python 3.x
 - VS Code or any IDE
@@ -156,7 +176,9 @@ During development, several improvements were made:
 
 📜 Conclusion
 
-CureVision AI demonstrates how artificial intelligence can improve healthcare accessibility and reduce diagnosis delays. By combining deep learning with chest X-ray analysis, the project helps doctors make faster and more reliable decisions, especially in areas with limited medical specialists.
+CureVision AI demonstrates how artificial intelligence can improve healthcare accessibility and reduce diagnosis delays. By combining deep learning with chest X-
+
+ray analysis, the project helps doctors make faster and more reliable decisions, especially in areas with limited medical specialists.
 
 👥 Team CureCoders
 
