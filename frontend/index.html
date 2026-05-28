@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CureCoders AI Medical Tool</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-section">
+      <img src="hospital_logo.jpg" alt="Hospital Logo" class="hospital-logo">
+      <div>
+        <h1>CureCoders</h1>
+        <p>AI-Based Medical Imaging Diagnostic Tool</p>
+      </div>
+    </div>
+    <div class="status-card">
+      <h3>AI System Active</h3>
+      <span>Accuracy: <span id="aiAccuracy">96%</span></span>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Left Side -->
+    <main class="main-content">
+
+      <!-- Upload Section -->
+      <section class="glass-card">
+        <h2>Upload X-Ray Scan</h2>
+        <p>Upload patient X-ray image for AI analysis</p>
+        <div class="upload-box">
+          <input type="file" id="xrayInput" accept="image/*">
+          <button id="analyzeBtn">Upload & Analyze</button>
+          <div id="preview"></div>
+        </div>
+      </section>
+
+      <!-- AI Result -->
+      <section class="glass-card">
+        <h2>AI Diagnosis Result</h2>
+        <p>Detected Disease: <span id="diseaseName">--</span></p>
+        <p id="confidenceScore">Confidence: --%</p>
+        <div id="progressBar"><div id="progress"></div></div>
+        <p>Status: <span id="reportStatus">--</span></p>
+      </section>
+
+      <!-- Recommendations -->
+      <section class="glass-card">
+        <h2>AI Recommendations</h2>
+        <ul id="recommendations">
+          <li>Upload scan to begin analysis</li>
+        </ul>
+      </section>
+
+      <!-- Emergency Status -->
+      <section class="glass-card">
+        <h2>Emergency Status</h2>
+        <p id="emergencyStatus">--</p>
+      </section>
+
+      <!-- Report -->
+      <section class="glass-card">
+        <h2>AI Medical Report</h2>
+        <div class="report-box">
+          <div class="report-row"><span>Patient:</span><span id="reportPatient">--</span></div>
+          <div class="report-row"><span>Age:</span><span id="reportAge">--</span></div>
+          <div class="report-row"><span>Gender:</span><span id="reportGender">--</span></div>
+          <div class="report-row"><span>Disease:</span><span id="reportDisease">--</span></div>
+          <div class="report-row"><span>Confidence:</span><span id="reportConfidence">--%</span></div>
+          <div class="report-row"><span>Recommendations:</span><span id="reportRecommendations">--</span></div>
+        </div>
+        <button class="download-btn">Download PDF</button>
+      </section>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Patient -->
+      <section class="glass-card">
+        <h2>Patient Details</h2>
+        <input type="text" id="patientName" placeholder="Patient Name">
+        <input type="number" id="patientAge" placeholder="Age">
+        <select id="patientGender">
+          <option>Select Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <button id="saveBtn">Save Patient Data</button>
+      </section>
+
+      <!-- Scan History -->
+      <section class="glass-card">
+        <h2>Scan History</h2>
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>File</th>
+              <th>Patient</th>
+              <th>Age</th>
+              <th>Gender</th>
+              <th>Disease</th>
+              <th>Confidence</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="scanHistoryList">
+            <tr><td colspan="8">No scans yet.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Analytics -->
+      <section class="glass-card">
+        <h2>Hospital Analytics</h2>
+        <p>Total Scans: <span id="totalScans">0</span></p>
+        <p>Critical Cases: <span id="criticalCases">0</span></p>
+        <p>AI Accuracy: <span id="aiAccuracy">96%</span></p>
+      </section>
+
+      <!-- Security -->
+      <section class="glass-card">
+        <h2>Security Status</h2>
+        <p>🔒 Patient records are encrypted and secure.</p>
+      </section>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

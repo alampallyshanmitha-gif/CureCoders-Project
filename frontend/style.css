@@ -1,0 +1,119 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #7cd2dd, #dce1d6);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(139, 213, 233, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  border-bottom: 2px solid #6ca6e4;
+}
+
+.hospital-logo {
+align-self: center;
+  width: 100px;
+  margin-right: 12px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.glass-card {
+  background:rgb(231, 227, 221);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.upload-box {
+  border: 2px dashed #6d9be9;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#progressBar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#progress {
+  height: 20px;
+  width: 0%;
+  background: #007bff;
+  transition: width 0.5s ease;
+}
+
+button {
+  background: #053970;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1272d8;
+}
+
+#scanHistoryList {
+  list-style: none;
+  padding: 10;
+}
+
+#scanHistoryList li {
+  background: #f9f9f9;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.history-table th, .history-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #886e6e;
+}
+
+.history-table th {
+  background: #488ad1;
+  color: #fff;
+}
+
+.history-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.history-table tr:hover {
+  background: #e3f2fd;
+}
