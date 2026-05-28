@@ -11,13 +11,19 @@ In many hospitals, especially in rural areas, patients often wait hours or even 
 CureVision AI solves this problem by using Artificial Intelligence and Convolutional Neural Networks (CNNs) to analyze chest X-ray images instantly and assist doctors in identifying abnormalities quickly and accurately.
 
 🌍 UN SDG Global Impact
+
 🩺 SDG 3 – Good Health and Well-Being
 
 Our project improves healthcare accessibility and promotes faster medical diagnosis.
+
 ⚙️ SDG 9 – Industry, Innovation, and Infrastructure
+
 The project integrates AI and deep learning technologies into healthcare systems to support innovation.
+
 🚀 Product Overview
+
 CureVision AI is an AI-powered diagnostic assistant that analyzes chest X-ray images and highlights abnormal regions such as pneumonia patches or fractures.
+
 The system provides:
 
 1. Fast image analysis
@@ -54,7 +60,9 @@ CureCoders_Project/
     |── pneumonia_model.h5
     |── train_model.py
 ├── frontend/
+
    │── hospital_logo.png
+  
    ├── index.html
    ├── script.js
    └── style.css
