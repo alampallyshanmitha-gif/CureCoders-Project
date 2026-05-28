@@ -171,14 +171,22 @@ Download Patient Diagnosis Report
  Final Gallery
  
  ScreenShorts/
+
       |__Before Analysis/
-           |__HomePage
-           |__AI Analysis
-           |__AI Report
+           
+             |__HomePage
+           
+             |__AI Analysis
+         
+            |__AI Report
+     
      |__After Analysis/
-           |__Home Page
-           |__AI Analysis
-           |__AI Medical Report
+           
+            |__Home Page
+           
+            |__AI Analysis
+           
+            |__AI Medical Report
 🧪 Testing & Validation
 
 The system includes:
