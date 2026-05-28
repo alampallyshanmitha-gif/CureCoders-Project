@@ -42,13 +42,17 @@ The system provides:
 6. 🏥 Healthcare-Friendly Interface
 
 🛠 Technologies Used
+
 Frontend
+
 1. HTML
 2. CSS
 3. JavaScript
+
 Backend
 1. Python
 2. Flask
+
 AI & Image Processing
 
 1. TensorFlow/Keras
@@ -63,22 +67,22 @@ CureCoders_Project/
 
 ├── backend/
 
-    ├── app.py
+       ├── app.py
     
-    |── pneumonia_model.h5
+       |── pneumonia_model.h5
     
-    |── train_model.py
+      |── train_model.py
     
 ├── frontend/
 
 
-   │── hospital_logo.png
+      │── hospital_logo.png
+       
+      ├── index.html
+      
+      ├── script.js
    
-   ├── index.html
-   
-   ├── script.js
-   
-   └── style.css
+      └── style.css
    
    ⚙️ Installation Guide
 
@@ -127,27 +131,45 @@ You can:
 - VS Code or any IDE
 - Modern Web Browser
 - Internet connection for dependencies
-- 
+ 
 🧠 System Architecture
 
+
 Patient Details Entry
+
         ↓
+        
 Patient uploads Chest X-ray Image
+
         ↓
+        
 Frontend Interface (HTML/CSS/JS)
+
         ↓
+
 Flask Backend API (Python)
+
         ↓
+
 CNN AI Model Processing
+ 
         ↓
+
 Disease Detection & Confidence Score
+       
         ↓
+
 Highlighted Chest X-ray Result
+        
         ↓
+
 PDF Report Generation
+        
         ↓
 Download Patient Diagnosis Report
+
  Final Gallery
+ 
  ScreenShorts/
       |__Before Analysis/
            |__HomePage
