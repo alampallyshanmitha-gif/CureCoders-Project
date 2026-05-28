@@ -1,7 +1,9 @@
 CureVision AI 🩺🤖
 AI-Based Medical Imaging Diagnostic Tool
 «“AI That Sees What Time Can’t Wait For.”»
+
 👨‍💻 Team Name: CureCoders
+
 
 📌 Problem Statement
 In many hospitals, especially in rural areas, patients often wait hours or even days for chest X-ray diagnosis because of the shortage of radiologists. Delayed diagnosis in cases such as pneumonia or fractures can become life-threatening.
